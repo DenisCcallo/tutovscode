@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Mi primera web</title>
+</head>
+<body>
+    <h1>Mi primer heading(titulo) eiquetas</h1>
+    <h2>Mi segundo heading(subtitulo)</h2>
+    <h3>Mi primer heading</h3>
+    <h4>Mi primer heading</h4>
+    <h5>Mi primer heading</h5>
+    <h6>Mi primer heading</h6>
+    <hr>
+    <p>ciencia de la computacion.</p>
+    <p> la unsa</p>
+    <p>Esto es <span style="color:red;">span </span> con style
+        <br> El br es un salto de linea 
+        <br> hr es una separacion con linea
+        <br>p es un parrafo
+        <br>h1, h2,...,h6 es un título de diferentes tamaños
+        <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto">ir al tutorial html</a>
+    </p>
+    <p>lo de arriba es un hipervinculo a google con href para el link
+        y target para abrir nueva ventana</p>
+    <p>lo siguiente es una imagen con img / </p>
+    <img src="img/pokes.webp" width="400" height="300"/>
+    <!--esto es un comentario y no afecta a la web
+    hecho con un tutorial
+        https://www.youtube.com/watch?v=MJkdaVFHrto
+    -->
+    <hr>
+    <p>etiqueta de form. Ingrese sus datos</p>
+    <p>get(añade dato a url) y post(adjunta datos) envian datos</p>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="Brayan" type="text" id="nombre" name="nombre" placeholder="Juan"/>
+        <br>
+        <label for="nombre">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Caballo"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="escriba aqui" name="comentario">Este es un valor por defecto</textarea>
+        <br>
+        <!--<button type="button" img src="img/pokes.webp" width="400" height="300">Enviar boton</button>
+        <button type="reset">Enviar reset</button>
+        <button type="submit">Enviar submit</button>-->
+        <input type="submit"/>
+    </form>
+    <hr>
+    <h2>Botones en html</h2>
+    <p>Existen 3 tupos, enviar, "reset" para reiniciar los forms y submit</p>
+    <button type="button">Enviar</button>
+    <button type="reset">Enviar</button>
+    <button type="submit">Enviar</button>
+</body>
+</html>
